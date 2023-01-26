@@ -5,13 +5,13 @@ import {contact, logo, menu} from '../assets';
 
 const Contact = () => {
     return (
-        <section id="contact" className="p-6 dark:bg-white dark:text-white rounded-lg clients">
+        <section id="contact" className="p-6 dark:bg-white text-white rounded-lg clients">
         <div className="container grid gap-12 mx-auto text-center lg:grid-cols-2 xl:grid-cols-5">
             <div className="w-full px-6 py-16 rounded-md sm:px-12 md:px-16 xl:col-span-2 bg-teal-800">
-                <span className="block mb-2 text-5xl dark:text-white font-extrabold">Remoteli</span>
-                <h1 className="text-2xl font-extrabold dark:text-gray-50">GET IN TOUCH NOW</h1>
+                <span className="block mb-2 text-5xl text-white font-extrabold">Remoteli</span>
+                <h1 className="text-2xl font-extrabold text-gray-50">GET IN TOUCH NOW</h1>
                 <p className="my-8">
-                    <span className="font-medium dark:text-gray-50">Helping you build an on-demand remote workforce.</span>
+                    <span className="font-medium text-gray-50">Helping you build an on-demand remote workforce.</span>
                 </p>
                 <form novalidate="" action="" className="self-stretch space-y-3 ng-untouched ng-pristine ng-valid">
                     <div>
