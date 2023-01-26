@@ -10,8 +10,10 @@
     144.39deg,
     #888686 -278.56%,
     #918e8e -78.47%,
-    #636363 91.61%
+    #0b7576 91.61%
   );
+
+
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
@@ -118,7 +120,7 @@
 }
 
 .feedback-card {
-  background: transparent;
+  background: #0b7576 91.61%
 }
 
 .feedback-card:hover {

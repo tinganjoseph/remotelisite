@@ -5,7 +5,7 @@ import Button from "./Button"
 
 const FeatureCard =({icon, title, content, index})=>(
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length -1 ? "mb-6" : "mb-0"} feature-card`}>
-    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-yellow-600`}>
+    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-teal-700`}>
       <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain"/>
     </div>
     <div className="flex-1 flex flex-col ml-3">
@@ -29,7 +29,7 @@ const Business=()=> {
 We are passionate about nurturing talented people and creating career opportunities. We have created a friendly, fun and supportive working environment as we continue to build a unique company culture.
 We are currently searching for the brightest young talent on the continent and have a variety of vacancies available. Do you have what it takes?</p>
 <div class="flex flex-col mt-9 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-yellow-600 hover:bg-yellow-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-teal-800 hover:bg-yellow-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                 Account
                 
             </a>

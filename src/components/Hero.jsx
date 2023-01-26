@@ -7,7 +7,7 @@ const Hero = () => (
     <div
       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 py-8`}
     >
-      <div className="flex flex-row items-center py-[13px] px-4 bg-yellow-600 rounded-[10px] ">
+      <div className="flex flex-row items-center py-[13px] px-4 bg-teal-700 rounded-[10px] ">
         <p className={`${styles.paragraph}`}>
           <span className="text-white">
             Helping you build an on-demand remote workforce
@@ -22,7 +22,7 @@ const Hero = () => (
        
       </div>
 
-      <p className={`${styles.paragraph} max-w-[470px] mt-5 font-semibold text-yellow-600`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 font-semibold text-teal-900`}>
       Remoteli is a tech-led on-demand staffing organisation with HQ in London, UK.
       </p>
       <div class="flex flex-col mb-8  mt-9 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
