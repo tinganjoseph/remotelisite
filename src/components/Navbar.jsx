@@ -24,7 +24,7 @@ function Navbar() {
         <img src={toggle ? close : menu}
         alt="menu"
         className="w-[28px] h-[28px]
-        object-contain"
+        object-contain bg-yellow-900"
         onClick={()=>setToggle((prev) => !prev)}
         />
         <div 

@@ -20,7 +20,7 @@ const FeatureCard =({icon, title, content, index})=>(
 
 const Business=()=> {
   return(
-      <section id="features" className={layout.section}>
+      <section id="about" className={layout.section}>
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>
           WANT TO JOIN REMOTELI?

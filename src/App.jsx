@@ -1,7 +1,8 @@
 import styles  from "./style"
 
 import {Navbar, Hero, Business, Billing,Stats,
-CardDeal, Testimonials, Clients, CTA, Footer} from './components';
+CardDeal, Testimonials, Contact, Footer} from './components';
+
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
         
           <CardDeal/>
           <Testimonials/>
+          <Contact/>
+       
         
         
           <Footer/>

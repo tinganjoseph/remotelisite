@@ -2,7 +2,7 @@ import {card} from '../assets'
 import styles, {layout} from "../style"
 import Button from "./Button"
 const CardDeal = () =>  (
-    <section className={layout.section}>
+    <section id ="service"className={layout.section}>
       <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
       BUSINESS ASSISTANT,   <br className="sm:block hidden"/> SOFTWARE DEVELOPMENT SERVICES

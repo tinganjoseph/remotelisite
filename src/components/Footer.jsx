@@ -35,7 +35,7 @@ remote workforce
 
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45] ">
         <p className="font-poppins font-normal  text-[18px] text-center leading-[27px] text-black">
-          2023. All Rights Reserved
+        2023 © Remote Work Digital Limited. All Rights Reserved.
         </p> 
         <div className="flex flex-row md:mt-0 mt-6 p-3 bg-yellow-900 rounded-lg">
         {socialMedia.map((social, index)=>(
