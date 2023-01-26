@@ -23,8 +23,8 @@ function Navbar() {
       <div className='sm:hidden flex flex-1 justify-end items-center'>
         <img src={toggle ? close : menu}
         alt="menu"
-        className="w-[18px] h-[18px]
-        object-contain bg-teal-900  rounded-lg"
+        className="w-[30px] h-[30px]
+        p-2 bg-teal-900  rounded-lg"
         onClick={()=>setToggle((prev) => !prev)}
         />
         <div 
