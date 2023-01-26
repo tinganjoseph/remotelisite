@@ -119,9 +119,7 @@
   margin-right: 0px;
 }
 
-.feedback-card {
-  background: #0b7576 91.61%
-}
+
 
 .feedback-card:hover {
   background: var(--black-gradient);

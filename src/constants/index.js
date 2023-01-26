@@ -68,6 +68,7 @@ export const feedback = [
     title: "Clients",
     img: people04,
   },
+
 ];
 
 export const stats = [
